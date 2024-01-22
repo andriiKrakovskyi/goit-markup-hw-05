@@ -715,11 +715,8 @@ img {
 	text-decoration: underline;
 }
 
-.checked-input:checked {
+.check-input:checked + .checked-text span {
 	background-color: #404bbf;
-}
-
-.checked-span:checked {
 	border: none;
 	fill: #f4f4fd;
 }
