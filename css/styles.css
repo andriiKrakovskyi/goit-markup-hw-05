@@ -301,6 +301,10 @@ img {
 		0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.team-img {
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
 
 .subtitle {
 	color: #2e2f42;
@@ -316,7 +320,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 32px 0;
+	/* padding: 32px 0; */
 }
 
 .item-text {
@@ -333,6 +337,7 @@ img {
 	display: flex;
 	gap: 24px;
 	justify-content: center;
+	margin: 0 auto 32px;
 }
 
 .team-social-item {
@@ -528,9 +533,6 @@ img {
 	fill: #f4f4fd;
 }
 /* ---------------footer-form-------------------------------- */
-
-.footer-subscribe {
-}
 
 .social-media {
 	margin-right: 80px;
